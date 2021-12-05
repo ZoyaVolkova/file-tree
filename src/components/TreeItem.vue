@@ -37,7 +37,13 @@ export default {
       return this.item.contents && this.item.contents.length
     },
     getSrc: function() {
-      return 'images/file.png'
+      if (this.type === 'file') {
+        return 'images/file.png'
+      } else if (this.type === 'link') {
+        return 'images/link.png'
+      } else {
+        return 'images/folder.png'
+      }
     },
   },
   methods: {
