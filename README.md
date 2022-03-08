@@ -1,4 +1,4 @@
 # file-tree
-## Дерево файлов Vue.js
-Графическое представление структуры папок из JSON c использованием рекурсивных компонентов
+## Vue.js file tree
+Graphical representation of folder structure from JSON using recursive components
 ![Untitled](readme.png)
